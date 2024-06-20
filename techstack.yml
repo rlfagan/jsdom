@@ -1,0 +1,453 @@
+repo_name: rlfagan/jsdom
+report_id: 91d65da030b4c81d1b39c466be6b7f05
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:02:59+00:00'
+requested_by: GrantGryczan
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rlfagan/jsdom
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rlfagan/jsdom
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/rlfagan/jsdom
+  detection_source: Repo Metadata
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Elijah Insua
+  last_updated_on: 2010-02-07 11:18:44.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Elijah Insua
+  last_updated_on: 2010-02-07 11:18:44.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/benchmark/.eslintrc
+  detection_source: benchmark/.eslintrc
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2015-09-26 08:10:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/jsdom
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/.github/workflows/jsdom-ci.yml
+  detection_source: ".github/workflows/jsdom-ci.yml"
+  last_updated_by: Vegard B. Bugge
+  last_updated_on: 2021-02-13 14:34:11.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 6.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-08-01 21:01:30.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Zirro
+  last_updated_on: 2017-10-02 01:17:09.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Elijah Insua
+  last_updated_on: 2010-02-07 11:18:44.000000000 Z
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 3.0.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-03-07 05:21:05.000000000 Z
+  vulnerabilities:
+  - name: minimatch ReDoS vulnerability
+    cve_id: CVE-2022-3517
+    cve_url: https://github.com/advisories/GHSA-f8q6-p94x-37v3
+    detected_date: Oct 21
+    severity: high
+    first_patched: 3.0.5
+- name: tough-cookie
+  description: RFC6265 Cookies and Cookie Jar for node.js
+  package_url: https://www.npmjs.com/tough-cookie
+  version: 4.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17146/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-03-07 05:21:05.000000000 Z
+  vulnerabilities:
+  - name: tough-cookie Prototype Pollution vulnerability
+    cve_id: CVE-2023-26136
+    cve_url: https://github.com/advisories/GHSA-72xf-g2v4-qvf3
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.1.3
+- name: acorn
+  description: ECMAScript parser
+  package_url: https://www.npmjs.com/acorn
+  version: 7.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16344/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
+- name: benchmark
+  description: A benchmarking library that supports high-resolution timers &amp; returns
+    statistically significant results
+  package_url: https://www.npmjs.com/benchmark
+  version: 2.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Timothy Gu
+  last_updated_on: 2019-09-26 06:00:20.000000000 Z
+- name: decimal.js
+  description: An arbitrary-precision Decimal type for JavaScript
+  package_url: https://www.npmjs.com/decimal.js
+  version: 10.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18188/default_13969c5d2859d7d510fdef0e78c273ae025e9cc4.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-08-01 21:01:30.000000000 Z
+- name: escodegen
+  description: ECMAScript code generator
+  package_url: https://www.npmjs.com/escodegen
+  version: 2.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16563/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-03-07 05:21:05.000000000 Z
+- name: eslint-plugin-html
+  description: A ESLint plugin to lint and fix inline scripts contained in HTML files
+  package_url: https://www.npmjs.com/eslint-plugin-html
+  version: 6.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16129/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
+- name: form-data
+  description: A library to create readable "multipart/form-data" streams
+  package_url: https://www.npmjs.com/form-data
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
+- name: https-proxy-agent
+  description: An HTTP
+  package_url: https://www.npmjs.com/https-proxy-agent
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17334/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-05-23 18:11:02.000000000 Z
+- name: karma-browserify
+  description: A fast browserify integration for Karma that handles large projects
+    with ease
+  package_url: https://www.npmjs.com/karma-browserify
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16294/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-08-01 21:01:30.000000000 Z
+- name: karma-mocha
+  description: A Karma plugin. Adapter for Mocha testing framework
+  package_url: https://www.npmjs.com/karma-mocha
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
+- name: parse5
+  description: HTML parser and serializer
+  package_url: https://www.npmjs.com/parse5
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16753/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-03-07 05:21:05.000000000 Z
+- name: pngjs
+  description: PNG encoder/decoder in pure JS
+  package_url: https://www.npmjs.com/pngjs
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17513/default_10a98ebc0146ab94b0fde6f7013c1279c82e4135.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Timothy Gu
+  last_updated_on: 2021-06-15 21:14:32.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Timothy Gu
+  last_updated_on: 2020-03-09 21:14:17.000000000 Z
+- name: server-destroy
+  description: Enable destroying a server
+  package_url: https://www.npmjs.com/server-destroy
+  version: 1.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17834/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2017-01-29 23:56:47.000000000 Z
+- name: watchify
+  description: Watch mode for browserify builds
+  package_url: https://www.npmjs.com/watchify
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16087/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-03-07 05:21:05.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 16.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/rlfagan/jsdom/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Domenic Denicola
+  last_updated_on: 2021-10-06 21:15:51.000000000 Z
