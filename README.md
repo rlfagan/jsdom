@@ -8,6 +8,8 @@ jsdom is a pure-JavaScript implementation of many web standards, notably the WHA
 The latest versions of jsdom require Node.js v12 or newer. (Versions of jsdom below v17 still work with previous Node.js versions, but are unsupported.)
 
 ## Basic usage
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fjsdom.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fjsdom?ref=badge_shield)
+
 
 ```js
 const jsdom = require("jsdom");
@@ -520,3 +522,7 @@ If you need help with jsdom, please feel free to use any of the following venues
 - The [mailing list](https://groups.google.com/group/jsdom) (best for "how do I" questions)
 - The [issue tracker](https://github.com/jsdom/jsdom/issues) (best for bug reports)
 - The Matrix room: [#jsdom:matrix.org](https://matrix.to/#/#jsdom:matrix.org)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fjsdom.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fjsdom?ref=badge_large)
